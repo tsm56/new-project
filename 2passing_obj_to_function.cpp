@@ -9,7 +9,7 @@ public:
 };
 
 void print(car c){                                    // passing object to the function
-    cout<<c.power<<" "<<c.seat<<" "<<c.litre<<endl;  
+    cout<<c.power<<" "<<c.seat<<" "<<c.litre<<endl;   // this function is outside the class
 }
 
 
